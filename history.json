@@ -1,0 +1,970 @@
+{
+  "title": "The history of the computer",
+  "tagline": "From pebbles on a counting board to billions of switches on a chip: 4,500 years of teaching machines to follow instructions.",
+  "intro": "People have always used tools to help them count, from pebbles and beads to boxes of gears. In the 1800s Babbage and Lovelace imagined a machine that could follow any list of instructions, and in the 1930s Turing and Shannon showed how logic and switches could do it. Then came room-sized electronic machines, the transistor, the chip and the personal computer. India built its own computers from 1960 and its own supercomputers from 1991, and today computers sit in every pocket, doing many things at once.",
+  "eras": [
+    {
+      "id": "counting",
+      "name": "Counting by hand and gear",
+      "from": -2700,
+      "to": 1850,
+      "color": "#c49bff",
+      "summary": "Beads, pebbles and gears help people add and carry, but a person still has to do the thinking."
+    },
+    {
+      "id": "program",
+      "name": "The idea of a program",
+      "from": 1800,
+      "to": 1955,
+      "color": "#ffb547",
+      "summary": "Punched cards, Babbage's engines, Lovelace's notes, Boole's logic and Turing's machine turn the idea of a list of instructions into a science."
+    },
+    {
+      "id": "giants",
+      "name": "Giant electronic brains",
+      "from": 1940,
+      "to": 1955,
+      "color": "#ff7a59",
+      "summary": "Room-sized machines full of vacuum tubes break codes, compute tables and learn to keep their programs in memory."
+    },
+    {
+      "id": "chips",
+      "name": "Chips and personal computers",
+      "from": 1947,
+      "to": 1995,
+      "color": "#5ce1a9",
+      "summary": "The transistor and the chip shrink the computer from a room to a desk, and Moore's law keeps it shrinking."
+    },
+    {
+      "id": "india",
+      "name": "India builds its own",
+      "from": 1955,
+      "to": 2026,
+      "color": "#ffd166",
+      "summary": "From TIFRAC and ISIJU to ECIL's factory computers, PARAM and today's AI supercomputers."
+    },
+    {
+      "id": "parallel",
+      "name": "Everywhere and parallel",
+      "from": 1989,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "The web, GPUs, many-core chips and smartphones put billions of computers in people's hands, all doing many things at once."
+    }
+  ],
+  "events": [
+    {
+      "year": -2500,
+      "date": "c. 2700–2300 BCE",
+      "era": "counting",
+      "art": "calculator",
+      "title": "Counting with pebbles and beads",
+      "who": "Unknown merchants and scribes",
+      "where": "Mesopotamia; later Greece and China",
+      "country": "Iraq",
+      "text": "People in ancient Mesopotamia are thought to have counted on boards with lines and pebbles. The oldest counting board that survives, the Salamis tablet from Greece, dates to about 300 BCE. Written records of the Chinese abacus go back to about the 2nd century BCE.",
+      "why": "Each bead or pebble stands for a digit in a place, the same idea a computer uses for numbers today.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1642,
+      "date": "1642",
+      "era": "counting",
+      "art": "gear",
+      "title": "A box of gears that adds",
+      "who": "Blaise Pascal",
+      "where": "Rouen",
+      "country": "France",
+      "text": "A 19-year-old Blaise Pascal built a calculator to help his father, a tax official, with long sums. Turning dials moved gears, and a clever carry mechanism passed a 1 to the next wheel. About 50 were made over the next ten years.",
+      "why": "It showed that a machine, not a person, could do the carrying in arithmetic.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1804,
+      "date": "1804",
+      "era": "program",
+      "art": "keys",
+      "title": "A loom that follows punched cards",
+      "who": "Joseph Marie Jacquard",
+      "where": "Lyon",
+      "country": "France",
+      "text": "Jacquard's loom wove patterns by reading a chain of cards with holes punched in them. A hole meant lift this thread, no hole meant leave it. Change the cards and the same loom weaves a different pattern.",
+      "why": "Holes and no holes are a kind of 1s and 0s, and the chain of cards was a stored list of instructions.",
+      "box": "software",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1822,
+      "date": "1822–1837",
+      "era": "program",
+      "art": "gear",
+      "key": true,
+      "title": "Babbage's engines",
+      "who": "Charles Babbage",
+      "where": "London",
+      "country": "England",
+      "text": "Charles Babbage designed a Difference Engine to print mathematical tables without human mistakes. By 1837 he had designed something far bigger: the Analytical Engine, with a 'store' for numbers and a 'mill' to work on them, fed by Jacquard-style punched cards. Neither was finished in his lifetime.",
+      "why": "The store and the mill are the memory and the processor of every computer since.",
+      "box": "anatomy",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1843,
+      "date": "1843",
+      "era": "program",
+      "art": "quill",
+      "key": true,
+      "title": "Ada Lovelace writes the first published program",
+      "who": "Ada Lovelace",
+      "where": "London",
+      "country": "England",
+      "text": "Ada Lovelace translated an article about the Analytical Engine and added notes three times longer than the article. Her Note G set out, step by step, how the engine could calculate Bernoulli numbers. It is widely called the first published computer program.",
+      "why": "She also saw that such a machine could work with symbols and even music, not just numbers.",
+      "box": "software",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1854,
+      "date": "1854",
+      "era": "program",
+      "art": "word",
+      "title": "Logic becomes algebra",
+      "who": "George Boole",
+      "where": "Cork",
+      "country": "Ireland",
+      "text": "George Boole, a self-taught English mathematician working in Ireland, published The Laws of Thought. He showed that true and false could be handled like numbers, with rules for AND, OR and NOT.",
+      "why": "Boole's algebra of true and false is exactly what a computer's logic gates do.",
+      "box": "bits",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936",
+      "era": "program",
+      "art": "scroll",
+      "key": true,
+      "title": "Turing imagines a universal machine",
+      "who": "Alan Turing",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "In his paper 'On Computable Numbers', 24-year-old Alan Turing imagined a simple machine that reads and writes symbols on a long tape, following a table of rules. He showed that one universal machine could imitate any other, just by being given its rules.",
+      "why": "It is the idea behind every computer: one machine, many programs.",
+      "box": "software",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1937,
+      "date": "1937",
+      "era": "program",
+      "art": "digital",
+      "title": "Switches can do logic",
+      "who": "Claude Shannon",
+      "where": "MIT, Cambridge, Massachusetts",
+      "country": "USA",
+      "text": "In his master's thesis, Claude Shannon showed that circuits of on/off switches follow Boole's algebra. A switch that is on is 1, a switch that is off is 0, and wiring them together can add numbers.",
+      "why": "It joined logic to electricity, the step that turned Boole's ideas into hardware.",
+      "box": "bits",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1944,
+      "date": "1943–1944",
+      "era": "giants",
+      "art": "computer",
+      "title": "Colossus breaks codes",
+      "who": "Tommy Flowers and the Bletchley Park codebreakers",
+      "where": "Dollis Hill and Bletchley Park",
+      "country": "England",
+      "text": "During the Second World War, engineer Tommy Flowers built Colossus to help crack the German Lorenz cipher. It used about 1,600 vacuum tubes in its first version and was working by early 1944. It was kept secret for decades.",
+      "why": "It is often called the first programmable, electronic, digital computer, though it was built for one kind of job.",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "1945, unveiled 14–15 February 1946",
+      "era": "giants",
+      "art": "computer",
+      "key": true,
+      "title": "ENIAC, the giant electronic brain",
+      "who": "J. Presper Eckert and John Mauchly",
+      "where": "University of Pennsylvania, Philadelphia",
+      "country": "USA",
+      "text": "ENIAC filled a large room: about 18,000 vacuum tubes, 30 tons and 150 kilowatts of power. It could do about 5,000 additions a second, far faster than anything before it. It was finished in 1945 and shown to the public in February 1946.",
+      "why": "It proved that a big, general-purpose electronic computer could really work.",
+      "sources": [
+        10,
+        11
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "30 June 1945",
+      "era": "giants",
+      "art": "scroll",
+      "key": true,
+      "title": "The stored-program idea",
+      "who": "John von Neumann, with the ENIAC team",
+      "where": "Moore School, Philadelphia",
+      "country": "USA",
+      "text": "John von Neumann wrote the 'First Draft of a Report on the EDVAC'. It described a computer that keeps its program in the same memory as its data, so a new program can be loaded as easily as new numbers. Eckert and Mauchly had worked on these ideas too, and the credit is still argued about.",
+      "why": "Almost every computer since has kept its program in memory this way.",
+      "box": "memory",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1946,
+      "date": "1945–1946",
+      "era": "giants",
+      "art": "person",
+      "title": "The six women who programmed ENIAC",
+      "who": "Kay McNulty, Betty Jennings, Betty Snyder, Marlyn Wescoff, Fran Bilas, Ruth Lichterman",
+      "where": "University of Pennsylvania, Philadelphia",
+      "country": "USA",
+      "text": "ENIAC had no keyboard and no programming language. Six women worked out how to program it by setting switches and plugging cables, often from wiring diagrams alone. At the 1946 unveiling they were barely mentioned.",
+      "why": "They were among the first programmers, and their story was left out of most histories for decades.",
+      "box": "software",
+      "sources": [
+        10,
+        12
+      ]
+    },
+    {
+      "year": 1947,
+      "date": "16 December 1947",
+      "era": "chips",
+      "art": "chip",
+      "key": true,
+      "title": "The transistor",
+      "who": "John Bardeen, Walter Brattain and William Shockley",
+      "where": "Bell Labs, Murray Hill, New Jersey",
+      "country": "USA",
+      "text": "At Bell Labs, Bardeen and Brattain made a tiny switch and amplifier from a piece of germanium. Shockley soon designed a better version. The three shared the 1956 Nobel Prize in Physics.",
+      "why": "Transistors replaced hot, fragile vacuum tubes and are the switches inside every chip today.",
+      "box": "bits",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1948,
+      "date": "21 June 1948",
+      "era": "giants",
+      "art": "computer",
+      "title": "The Baby runs a stored program",
+      "who": "Frederic Williams, Tom Kilburn and Geoff Tootill",
+      "where": "University of Manchester",
+      "country": "England",
+      "text": "A small test machine nicknamed the Baby ran its first program on 21 June 1948. The program, which found the largest factor of a number, sat in the machine's own electronic memory, a special cathode ray tube.",
+      "why": "It was the first computer to run a program stored in its own electronic memory.",
+      "box": "memory",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1952,
+      "date": "1952",
+      "era": "program",
+      "art": "person",
+      "title": "Grace Hopper's compiler",
+      "who": "Grace Hopper",
+      "where": "Remington Rand, Philadelphia",
+      "country": "USA",
+      "text": "Grace Hopper wrote the A-0 system, an early compiler: a program that turns instructions written by people into machine code. Many experts told her computers could only do arithmetic. Her later work led to the business language COBOL.",
+      "why": "Compilers let people write programs in words instead of raw numbers.",
+      "box": "software",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 1958,
+      "date": "1958–1959",
+      "era": "chips",
+      "art": "chip",
+      "key": true,
+      "title": "The integrated circuit",
+      "who": "Jack Kilby (Texas Instruments) and Robert Noyce (Fairchild)",
+      "where": "Dallas, Texas and Mountain View, California",
+      "country": "USA",
+      "text": "In 1958 Jack Kilby built several parts of a circuit on one piece of germanium. In 1959 Robert Noyce patented a way to make whole circuits on flat silicon, with metal wires printed on top. Kilby won the 2000 Nobel Prize in Physics, and both are credited as inventors.",
+      "why": "Putting many transistors on one chip made computers smaller, cheaper and faster every year.",
+      "box": "cpu",
+      "sources": [
+        16,
+        17
+      ]
+    },
+    {
+      "year": 1960,
+      "date": "February 1960; named by Nehru c. 1962",
+      "era": "india",
+      "art": "computer",
+      "key": true,
+      "title": "TIFRAC, India's first computer",
+      "who": "Rangaswamy Narasimhan and team, TIFR",
+      "where": "Bombay (now Mumbai)",
+      "country": "India",
+      "text": "A team at the Tata Institute of Fundamental Research built India's first home-made digital computer, based on the IAS machine design from Princeton. It used about 2,700 vacuum tubes and an early ferrite core memory. It was commissioned in 1960, and Prime Minister Nehru gave it its name; sources differ on whether that was in 1960 or 1962.",
+      "why": "It showed that India could design and build its own computers.",
+      "sources": [
+        23,
+        24
+      ]
+    },
+    {
+      "year": 1965,
+      "date": "19 April 1965",
+      "era": "chips",
+      "art": "chip",
+      "title": "Moore's law",
+      "who": "Gordon Moore",
+      "where": "Fairchild Semiconductor, California",
+      "country": "USA",
+      "text": "In a magazine article, Gordon Moore noticed that the number of parts on a chip was doubling every year, and guessed it would continue. In 1975 he changed his estimate to doubling about every two years.",
+      "why": "The prediction became a target the whole chip industry raced to hit for 50 years.",
+      "box": "cpu",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "1964–1966",
+      "era": "india",
+      "art": "computer",
+      "title": "ISIJU-1: India's first transistor computer",
+      "who": "Samarendra Kumar Mitra and Jnan Saran Chatterjee",
+      "where": "Indian Statistical Institute and Jadavpur University, Calcutta (now Kolkata)",
+      "country": "India",
+      "text": "Engineers from the Indian Statistical Institute and Jadavpur University built ISIJU-1, a computer made with transistors instead of vacuum tubes. It was working by about 1964 and was formally commissioned on 2 April 1966.",
+      "why": "It was India's first solid-state digital computer.",
+      "sources": [
+        25
+      ]
+    },
+    {
+      "year": 1969,
+      "date": "1969",
+      "era": "india",
+      "art": "computer",
+      "title": "TDC-12 and ECIL's computers",
+      "who": "S. Srikantan and team, BARC and ECIL",
+      "where": "Trombay (Bombay) and Hyderabad",
+      "country": "India",
+      "text": "A prototype 12-bit computer, the TDC-12, was completed in 1969 and made by the new public company ECIL. About 20 had been supplied by 1971, for jobs like watching for earthquakes. ECIL went on to make the 16-bit TDC-316 and, in 1979, the 32-bit System 332.",
+      "why": "India began making computers in a factory, not just in a lab.",
+      "sources": [
+        26
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "15 November 1971",
+      "era": "chips",
+      "art": "chip",
+      "key": true,
+      "title": "A computer on one chip",
+      "who": "Federico Faggin, Ted Hoff, Stanley Mazor and Masatoshi Shima",
+      "where": "Intel, Santa Clara, California",
+      "country": "USA",
+      "text": "The Intel 4004 put a whole processor on one chip, with about 2,300 transistors running at up to 740 kHz. It was first designed for a Japanese company's calculator. It is widely called the first commercial microprocessor.",
+      "why": "Every phone and laptop today has descendants of this chip at its heart.",
+      "box": "cpu",
+      "sources": [
+        19,
+        37
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "April–June 1977",
+      "era": "chips",
+      "art": "computer",
+      "title": "The Apple II",
+      "who": "Steve Wozniak and Steve Jobs",
+      "where": "Cupertino, California",
+      "country": "USA",
+      "text": "The Apple II came ready to use, in a plastic case with a keyboard, and could show colour on a TV. It was one of three popular home computers of 1977, along with the Commodore PET and TRS-80.",
+      "why": "Computers moved from company basements into homes and schools.",
+      "sources": [
+        21
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "12 August 1981",
+      "era": "chips",
+      "art": "computer",
+      "title": "The IBM PC",
+      "who": "IBM, team led by Don Estridge",
+      "where": "Boca Raton, Florida",
+      "country": "USA",
+      "text": "IBM launched its Personal Computer, built mostly from parts other companies made, including an Intel processor and Microsoft's DOS. Other firms soon built 'clones' that ran the same software.",
+      "why": "Its open design became the standard for most desktop computers for decades.",
+      "box": "anatomy",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1991",
+      "era": "india",
+      "art": "building",
+      "key": true,
+      "title": "PARAM 8000, India's own supercomputer",
+      "who": "C-DAC, led by Vijay Bhatkar",
+      "where": "Pune",
+      "country": "India",
+      "text": "When India could not buy a big American supercomputer, the government set up C-DAC in 1988 to build one. Its answer, PARAM 8000, linked many small processors to work in parallel. It was rated at about 1 gigaflop, a billion calculations a second, at its peak.",
+      "why": "It proved that many small processors working together could match a costly supercomputer.",
+      "box": "everywhere",
+      "sources": [
+        27,
+        28
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1989–1991",
+      "era": "parallel",
+      "art": "earth",
+      "title": "The World Wide Web",
+      "who": "Tim Berners-Lee",
+      "where": "CERN, near Geneva",
+      "country": "Switzerland",
+      "text": "Tim Berners-Lee proposed a way to link documents across computers in 1989. By 1991 the web was open to people outside CERN, and in 1993 CERN put the software into the public domain.",
+      "why": "It turned computers from calculating machines into windows onto the world.",
+      "box": "everywhere",
+      "sources": [
+        29
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "31 August 1999",
+      "era": "parallel",
+      "art": "pixels",
+      "title": "The first 'GPU'",
+      "who": "NVIDIA",
+      "where": "Santa Clara, California",
+      "country": "USA",
+      "text": "NVIDIA announced the GeForce 256 and marketed it as the world's first GPU, a chip that did the maths for 3D graphics itself instead of leaving it to the main processor. It had about 17 million transistors.",
+      "why": "GPUs do thousands of small sums at once, which later made them perfect for AI.",
+      "sources": [
+        31
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001",
+      "era": "parallel",
+      "art": "chip",
+      "title": "Two cores on one chip",
+      "who": "IBM",
+      "where": "New York",
+      "country": "USA",
+      "text": "IBM's POWER4 put two processor cores on a single chip, the first mainstream processor to do so. AMD and Intel brought dual-core chips to ordinary PCs in 2005.",
+      "why": "When clock speeds stopped rising, computers got faster by adding more cores instead.",
+      "box": "cpu",
+      "sources": [
+        30
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "9 January 2007",
+      "era": "parallel",
+      "art": "phone",
+      "key": true,
+      "title": "A computer in your pocket",
+      "who": "Apple, presented by Steve Jobs",
+      "where": "San Francisco, California",
+      "country": "USA",
+      "text": "Apple showed the iPhone, a phone with a touchscreen, a web browser and a full operating system. The first Android phone followed in 2008. Smartphones soon became the most common computers on Earth.",
+      "why": "For billions of people, their first computer is a phone.",
+      "box": "everywhere",
+      "sources": [
+        33
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "2006–2012",
+      "era": "parallel",
+      "art": "neuralnet",
+      "title": "GPUs learn to see",
+      "who": "Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton",
+      "where": "University of Toronto",
+      "country": "Canada",
+      "text": "In 2006 and 2007 NVIDIA released CUDA, which let programmers use graphics chips for any kind of maths. In 2012 a neural network called AlexNet, trained on two gaming GPUs, won an image recognition contest by a wide margin.",
+      "why": "It started the modern AI boom, which runs on huge numbers of chips working in parallel.",
+      "sources": [
+        39,
+        32
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "2020–2025",
+      "era": "india",
+      "art": "building",
+      "title": "India's AI supercomputers",
+      "who": "C-DAC and the National Supercomputing Mission",
+      "where": "Pune and across India",
+      "country": "India",
+      "text": "PARAM Siddhi-AI ranked 63rd in the world in November 2020, at about 4.6 petaflops. In 2023 the AIRAWAT system at C-DAC ranked 75th. By August 2025 the National Supercomputing Mission, begun in 2015, had installed 37 supercomputers with about 40 petaflops in total.",
+      "why": "India now builds and runs supercomputers for weather, medicine and AI research.",
+      "box": "everywhere",
+      "sources": [
+        34,
+        35,
+        36
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Published computer program",
+      "value": "1843",
+      "who": "Ada Lovelace, England"
+    },
+    {
+      "label": "Working programmable, fully automatic computer",
+      "value": "1941",
+      "who": "Konrad Zuse's Z3, Germany"
+    },
+    {
+      "label": "Programmable electronic digital computer",
+      "value": "1943–1944",
+      "who": "Colossus, Tommy Flowers, England"
+    },
+    {
+      "label": "General-purpose electronic computer",
+      "value": "1945",
+      "who": "ENIAC, Eckert and Mauchly, USA"
+    },
+    {
+      "label": "Program run from electronic memory",
+      "value": "21 June 1948",
+      "who": "Manchester Baby, England"
+    },
+    {
+      "label": "Commercial microprocessor",
+      "value": "1971",
+      "who": "Intel 4004, USA"
+    },
+    {
+      "label": "India's first home-built computer",
+      "value": "1960",
+      "who": "TIFRAC, TIFR, Bombay"
+    },
+    {
+      "label": "India's first supercomputer",
+      "value": "1991",
+      "who": "PARAM 8000, C-DAC, Pune"
+    }
+  ],
+  "people": [
+    {
+      "name": "Charles Babbage",
+      "life": "1791 – 1871",
+      "role": "Mathematician and inventor",
+      "from": "England",
+      "note": "Designed the Analytical Engine, a mechanical computer with a store and a mill."
+    },
+    {
+      "name": "Ada Lovelace",
+      "life": "1815 – 1852",
+      "role": "Mathematician and writer",
+      "from": "England",
+      "note": "Wrote the first published program and saw that computers could handle more than numbers."
+    },
+    {
+      "name": "Alan Turing",
+      "life": "1912 – 1954",
+      "role": "Mathematician",
+      "from": "England",
+      "note": "Imagined the universal machine and helped break codes in the Second World War."
+    },
+    {
+      "name": "Konrad Zuse",
+      "life": "1910 – 1995",
+      "role": "Engineer",
+      "from": "Germany",
+      "note": "Built the Z3 in Berlin in 1941, a working programmable computer made with relays."
+    },
+    {
+      "name": "Kay McNulty",
+      "life": "1921 – 2006",
+      "role": "ENIAC programmer",
+      "from": "Ireland and USA",
+      "note": "One of the six women who first programmed ENIAC, by plugging cables and setting switches."
+    },
+    {
+      "name": "Jean Jennings Bartik",
+      "life": "1924 – 2011",
+      "role": "ENIAC programmer",
+      "from": "USA",
+      "note": "Betty Jennings in 1946; she later helped turn ENIAC into a stored-program machine."
+    },
+    {
+      "name": "John von Neumann",
+      "life": "1903 – 1957",
+      "role": "Mathematician",
+      "from": "Hungary and USA",
+      "note": "His 1945 report described the stored-program design most computers still use."
+    },
+    {
+      "name": "Grace Hopper",
+      "life": "1906 – 1992",
+      "role": "Computer scientist and US Navy officer",
+      "from": "USA",
+      "note": "Built an early compiler and pushed for programs written in words people can read."
+    },
+    {
+      "name": "Jack Kilby",
+      "life": "1923 – 2005",
+      "role": "Engineer",
+      "from": "USA",
+      "note": "Made the first integrated circuit at Texas Instruments in 1958."
+    },
+    {
+      "name": "Robert Noyce",
+      "life": "1927 – 1990",
+      "role": "Engineer and co-founder of Intel",
+      "from": "USA",
+      "note": "Invented the flat silicon integrated circuit that chips are still made on."
+    },
+    {
+      "name": "Gordon Moore",
+      "life": "1929 – 2023",
+      "role": "Chemist and co-founder of Intel",
+      "from": "USA",
+      "note": "Predicted that chips would keep doubling their transistors."
+    },
+    {
+      "name": "Rangaswamy Narasimhan",
+      "life": "1926 – 2007",
+      "role": "Computer scientist",
+      "from": "India",
+      "note": "Led the TIFR team that built TIFRAC, India's first home-made computer."
+    },
+    {
+      "name": "Samarendra Kumar Mitra",
+      "life": "1916 – 1998",
+      "role": "Scientist and mathematician",
+      "from": "India",
+      "note": "Built an analog computer in 1953–54 and led the ISIJU-1 transistor computer."
+    },
+    {
+      "name": "Vijay Bhatkar",
+      "life": "born 1946",
+      "role": "Computer scientist",
+      "from": "India",
+      "note": "Founding director of C-DAC, which built the PARAM supercomputers."
+    }
+  ],
+  "series": [
+    {
+      "id": "transistors",
+      "title": "Transistors on one chip",
+      "unit": "transistors",
+      "log": true,
+      "after": "chips",
+      "caption": "Each step up is ten times more. In about 50 years, chips went from thousands of transistors to hundreds of billions.",
+      "points": [
+        {
+          "year": 1971,
+          "value": 2300,
+          "label": "Intel 4004: about 2,300"
+        },
+        {
+          "year": 1978,
+          "value": 29000,
+          "label": "Intel 8086: 29,000"
+        },
+        {
+          "year": 1985,
+          "value": 275000,
+          "label": "Intel 80386: 275,000"
+        },
+        {
+          "year": 1989,
+          "value": 1180235,
+          "label": "Intel 80486: about 1.2 million"
+        },
+        {
+          "year": 1993,
+          "value": 3100000,
+          "label": "Intel Pentium: 3.1 million"
+        },
+        {
+          "year": 2000,
+          "value": 42000000,
+          "label": "Intel Pentium 4: 42 million"
+        },
+        {
+          "year": 2006,
+          "value": 291000000,
+          "label": "Intel Core 2 Duo: 291 million"
+        },
+        {
+          "year": 2011,
+          "value": 1160000000,
+          "label": "Intel Core i7 (Sandy Bridge): 1.16 billion"
+        },
+        {
+          "year": 2017,
+          "value": 4300000000,
+          "label": "Apple A11 phone chip: 4.3 billion"
+        },
+        {
+          "year": 2020,
+          "value": 16000000000,
+          "label": "Apple M1: 16 billion"
+        },
+        {
+          "year": 2023,
+          "value": 134000000000,
+          "label": "Apple M2 Ultra: 134 billion"
+        },
+        {
+          "year": 2024,
+          "value": 208000000000,
+          "label": "NVIDIA Blackwell B200: 208 billion, on two dies in one package"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "ENIAC used about 150 kilowatts, as much as about 75 electric kettles boiling at once, to do 5,000 additions a second. A phone chip today does billions of operations a second on a few watts.",
+    "Ada Lovelace wrote about a computer program about a hundred years before anyone built a computer that could run it.",
+    "The Intel 4004 had about 2,300 transistors. NVIDIA's Blackwell B200 of 2024 has 208 billion, about 90 million times more.",
+    "The word 'computer' used to mean a person, often a woman, whose job was to do calculations by hand.",
+    "India's first supercomputer, PARAM 8000, was built because India could not import one from the USA."
+  ],
+  "sources": [
+    {
+      "title": "Abacus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abacus"
+    },
+    {
+      "title": "Pascal's calculator",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+    },
+    {
+      "title": "Jacquard machine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacquard_machine"
+    },
+    {
+      "title": "The Babbage Engine",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/babbage/"
+    },
+    {
+      "title": "Ada Lovelace",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Ada-Lovelace"
+    },
+    {
+      "title": "George Boole",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/George-Boole"
+    },
+    {
+      "title": "Alan Turing",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Alan-Turing"
+    },
+    {
+      "title": "A Symbolic Analysis of Relay and Switching Circuits",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits"
+    },
+    {
+      "title": "Z3 (computer)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Z3_(computer)"
+    },
+    {
+      "title": "Colossus",
+      "publisher": "The National Museum of Computing",
+      "url": "https://www.tnmoc.org/colossus"
+    },
+    {
+      "title": "ENIAC",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ENIAC"
+    },
+    {
+      "title": "ENIAC",
+      "publisher": "Penn Engineering, University of Pennsylvania",
+      "url": "https://www.engineering.upenn.edu/about/history-heritage/eniac/"
+    },
+    {
+      "title": "The ENIAC Programmers Project",
+      "publisher": "ENIAC Programmers Project",
+      "url": "https://eniacprogrammers.org/"
+    },
+    {
+      "title": "First Draft of a Report on the EDVAC",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC"
+    },
+    {
+      "title": "Manchester Baby",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Manchester_Baby"
+    },
+    {
+      "title": "The Nobel Prize in Physics 1956",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/"
+    },
+    {
+      "title": "1959: Practical Monolithic Integrated Circuit Concept Patented",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/siliconengine/practical-monolithic-integrated-circuit-concept-patented/"
+    },
+    {
+      "title": "Jack S. Kilby: Facts",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/2000/kilby/facts/"
+    },
+    {
+      "title": "1965: Moore's Law Predicts the Future of Integrated Circuits",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+    },
+    {
+      "title": "Intel 4004",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004"
+    },
+    {
+      "title": "Grace Hopper",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Grace-Hopper"
+    },
+    {
+      "title": "Apple II",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple_II"
+    },
+    {
+      "title": "The IBM PC",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/history/personal-computer"
+    },
+    {
+      "title": "TIFRAC",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/TIFRAC"
+    },
+    {
+      "title": "India's First Digital Computer",
+      "publisher": "Tata Institute of Fundamental Research, on Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/india-s-first-digital-computer-tata-institute-of-fundamental-research/NQVhslS0jrdXLA?hl=en"
+    },
+    {
+      "title": "The ISI-JU computer was commissioned on 2 April 1966",
+      "publisher": "Indian Statistical Institute, on Google Arts & Culture",
+      "url": "https://artsandculture.google.com/asset/the-indian-statistical-institute-%E2%80%93-jadavpur-university-isi-ju-computer-was-commissioned-by-shri-m-c-chagla-then-union-minister-of-education-at-jadavpur-on-2nd-april-1966/RAHKafu98GJMxQ?hl=en"
+    },
+    {
+      "title": "History of ECIL",
+      "publisher": "Electronics Corporation of India Limited",
+      "url": "https://www.ecil.co.in/history"
+    },
+    {
+      "title": "PARAM",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PARAM"
+    },
+    {
+      "title": "About C-DAC",
+      "publisher": "Centre for Development of Advanced Computing",
+      "url": "https://www.cdac.in/index.aspx?id=about"
+    },
+    {
+      "title": "The birth of the Web",
+      "publisher": "CERN",
+      "url": "https://home.cern/science/computing/birth-web"
+    },
+    {
+      "title": "POWER4",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/POWER4"
+    },
+    {
+      "title": "GeForce 256",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/GeForce_256"
+    },
+    {
+      "title": "AlexNet",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AlexNet"
+    },
+    {
+      "title": "Apple Reinvents the Phone with iPhone",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+    },
+    {
+      "title": "India's AI supercomputer PARAM Siddhi 63rd among top 500",
+      "publisher": "Department of Science & Technology, India",
+      "url": "https://dst.gov.in/indias-ai-supercomputer-param-siddhi-63rd-among-top-500-most-powerful-non-distributed-computer"
+    },
+    {
+      "title": "India's AIRAWAT ranks 75th in Top 500 supercomputing list",
+      "publisher": "C-DAC",
+      "url": "https://www.cdac.in/index.aspx?id=pk_itn_spot1334"
+    },
+    {
+      "title": "National Supercomputing Mission: 37 systems, 40 petaflops",
+      "publisher": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2158517"
+    },
+    {
+      "title": "Transistor count",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transistor_count"
+    },
+    {
+      "title": "NVIDIA Blackwell Platform Arrives to Power a New Era of Computing",
+      "publisher": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing"
+    },
+    {
+      "title": "CUDA",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CUDA"
+    }
+  ]
+}

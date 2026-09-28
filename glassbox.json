@@ -1,0 +1,113 @@
+{
+  "slug": "computerclear",
+  "box": 74,
+  "date": "2026-10-09",
+  "title": "ComputerClear",
+  "question": "How does a computer work?",
+  "hook": "A computer is billions of switches following a list of tiny instructions, one clock tick at a time. Take a desktop apart, type your name and see its bytes, and step a real 8-bit CPU through fetch, decode and execute.",
+  "thumbText": "HOW A COMPUTER WORKS",
+  "field": "computing",
+  "minutes": 16,
+  "tags": [
+    "computer",
+    "CPU",
+    "binary",
+    "bits and bytes",
+    "Unicode",
+    "fetch decode execute",
+    "memory hierarchy",
+    "cache",
+    "compiler",
+    "operating system",
+    "Moore's law",
+    "PARAM",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "The same few parts",
+      "text": "Every computer has a processor (CPU) that follows instructions, fast working memory (RAM) that forgets when the power goes off, storage (an SSD) that keeps your files, a graphics chip for the screen, and a power supply, all joined by a circuit board's buses."
+    },
+    {
+      "title": "Everything is ones and zeros",
+      "text": "A transistor is a switch: on is 1, off is 0. Eight bits make a byte, 256 patterns. A byte can mean a number, part of a letter (नमस्ते is 18 bytes in UTF-8), the brightness of red, green or blue, or one sample of a sound."
+    },
+    {
+      "title": "Fetch, decode, execute",
+      "text": "A CPU loops three steps: fetch the next instruction from memory using the program counter, decode what it means, and execute it by steering data through the ALU and registers. A real core does this billions of times a second, on 8 to 24 cores."
+    },
+    {
+      "title": "Near and fast, far and slow",
+      "text": "Registers answer at once, the L1 cache in about a nanosecond, RAM in about 100 ns, the SSD in tens of microseconds. If a clock tick took one second, reaching RAM would take nearly seven minutes, so caches keep recently used data close by."
+    },
+    {
+      "title": "Code becomes machine code",
+      "text": "A compiler turns lines people can read into the numbered instructions a CPU runs. The operating system shares the cores between apps a few milliseconds at a time, and at power-on firmware loads a boot loader, which loads the OS."
+    },
+    {
+      "title": "From a room to a pocket",
+      "text": "ENIAC filled a room and added 5,000 numbers a second on 150 kW. Transistors, then chips, doubled in number about every two years: from 2,300 in 1971 to over 200 billion today. India built TIFRAC in 1960 and PARAM in 1991, and now runs billions of UPI payments a month."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "CPU",
+      "def": "The processor: the chip that fetches, decodes and executes a program's instructions."
+    },
+    {
+      "term": "Transistor",
+      "def": "A tiny silicon switch, turned on or off by a voltage on its gate."
+    },
+    {
+      "term": "Byte",
+      "def": "Eight bits, which can stand for any number from 0 to 255."
+    },
+    {
+      "term": "UTF-8",
+      "def": "The common way to store Unicode text, using 1 to 4 bytes per character."
+    },
+    {
+      "term": "Program counter",
+      "def": "The register that holds the address of the next instruction."
+    },
+    {
+      "term": "ALU",
+      "def": "Arithmetic logic unit: the part of the CPU that adds, subtracts and compares."
+    },
+    {
+      "term": "Clock speed",
+      "def": "How many steps a CPU takes each second; 4 GHz is 4 billion ticks a second."
+    },
+    {
+      "term": "Cache",
+      "def": "A small, fast memory that keeps copies of recently used data close to the CPU."
+    },
+    {
+      "term": "Compiler",
+      "def": "A program that translates source code into machine code."
+    },
+    {
+      "term": "Operating system",
+      "def": "The master program that runs the hardware and shares it between apps."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "computerclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
